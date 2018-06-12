@@ -1,6 +1,6 @@
 # 1 React-comment
-![image](https://github.com/LLLLLea/React-Project/blob/master/react-comment/img/1.JPG)
 - 用React实现一个评论管理功能
+![image](https://github.com/LLLLLea/React-Project/blob/master/react-comment/img/1.JPG)
 ## 技术：
 - React
 - ES6
@@ -35,7 +35,6 @@
 - 应用主组件：App
 - 搜索组件: Search
 - 结果显示组件: List  
-编写静态组件
 
 ### 编写动态组件
   - componentWillReceiveProps(nextProps): 监视接收到新的props, 发送ajax
