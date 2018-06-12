@@ -1,4 +1,4 @@
-# React-comment
+# 1 React-comment
 ![image](https://github.com/LLLLLea/React-Project/blob/master/react-comment/img/1.JPG)
 - 用React实现一个评论管理功能
 ## 技术：
@@ -23,7 +23,7 @@
 - PubSub.publish('message',data);
 - PubSub.subscribe('message',function(msg,data){...});
 
-# 二、React-ajax
+# 2 React-ajax
 - 实现github用户搜索功能（模糊匹配）
 ![image](https://github.com/LLLLLea/React-Project/blob/master/react-ajax/img/1.JPG)
 ## 技术：
