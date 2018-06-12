@@ -22,3 +22,34 @@
 - PubSub-js可以实现消息推送/订阅
 - PubSub.publish('message',data);
 - PubSub.subscribe('message',function(msg,data){...});
+
+# 二、React-ajax
+- 实现github用户搜索功能（模糊匹配）
+![image](https://github.com/LLLLLea/React-Project/blob/master/react-ajax/img/1.JPG)
+## 技术：
+- React
+- ES6
+- create-react-app
+- ajax(axios) 
+### 拆分组件（拆分组件应该按功能拆分）
+- 应用主组件：App
+- 搜索组件: Search
+- 结果显示组件: List  
+编写静态组件
+
+### 编写动态组件
+  - componentWillReceiveProps(nextProps): 监视接收到新的props, 发送ajax
+  - 使用axios库发送ajax请求
+### axios
+- 用npm安装：npm install axios
+- 发送get请求：  
+
+```
+axios.get(url)
+  .then(function (response) {
+    console.log(response);
+  }) //请求成功时调用
+  .catch(function (error) {
+    console.log(error);
+  }); //请求失败时调用
+```
